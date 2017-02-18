@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+
+  var arr = [A=10,B=-2],
+      fMin;
+  function getMin(arr) {
+    var arrLen = arr.length,
+        minEl = arr[0];
+    for (var i = 0; i < arrLen; i++) {
+      if (minEl > arr[i]) {
+        minEl = arr[i];
+      }
+    }
+    return minEl;
+  }
+  fMin = getMin(arr);
+  console.log(fMin); 
+  document.write(" min B=" + fMin);
+
+  </script>
+</body>
+</html>
